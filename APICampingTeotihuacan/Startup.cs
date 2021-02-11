@@ -1,4 +1,9 @@
+using AutoMapper;
 using EdgarAparicio.APICampingTeotihuacan.Manager.Entity.Context;
+using EdgarAparicio.APICampingTeotihuacan.Manager.Interfaces;
+using EdgarAparicio.APICampingTeotihuacan.Manager.Manager;
+using EdgarAparicio.APICampingTeotihuacan.Repository.Interfaces;
+using EdgarAparicio.APICampingTeotihuacan.Repository.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -9,6 +14,7 @@ using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace APICampingTeotihuacan
@@ -29,6 +35,9 @@ namespace APICampingTeotihuacan
         {
             services.AddDbContext<DbContextAPICampingTeotihuacan>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<ICampRepository, CampRepostory>();
+            services.AddScoped<ICampManager, CampManager>();
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddControllers();
         }
 

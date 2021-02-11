@@ -65,3 +65,5 @@ C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuac
 C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\APICampingTeotihuacan\obj\Debug\netcoreapp3.1\APICampingTeotihuacan.genruntimeconfig.cache
 C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\APICampingTeotihuacan\bin\Debug\netcoreapp3.1\Repository.dll
 C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\APICampingTeotihuacan\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\APICampingTeotihuacan\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\APICampingTeotihuacan\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

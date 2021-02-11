@@ -1,4 +1,5 @@
 ﻿using EdgarAparicio.APICampingTeotihuacan.Manager.Entity.Entities;
+using EdgarAparicio.APICampingTeotihuacan.Manager.Entity.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,7 +9,9 @@ namespace EdgarAparicio.APICampingTeotihuacan.Manager.Interfaces
 {
     public interface ICampManager
     {
-        Task<List<Camp>> GetAllCamps();
+
+        Task<CampViewModel[]> GetAllCampsAsync(bool includeTalks = false);
+        Task<List<CampViewModel>> GetAllCamps();
 
     }
 }
