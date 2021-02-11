@@ -1,0 +1,11 @@
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Entity\bin\Debug\netcoreapp3.1\Entity.deps.json
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Entity\bin\Debug\netcoreapp3.1\Entity.runtimeconfig.json
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Entity\bin\Debug\netcoreapp3.1\Entity.runtimeconfig.dev.json
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Entity\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Entity\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Entity\obj\Debug\netcoreapp3.1\Entity.AssemblyInfoInputs.cache
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Entity\obj\Debug\netcoreapp3.1\Entity.AssemblyInfo.cs
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Entity\obj\Debug\netcoreapp3.1\Entity.csproj.CoreCompileInputs.cache
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Entity\obj\Debug\netcoreapp3.1\Entity.dll
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Entity\obj\Debug\netcoreapp3.1\Entity.pdb
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Entity\obj\Debug\netcoreapp3.1\Entity.genruntimeconfig.cache

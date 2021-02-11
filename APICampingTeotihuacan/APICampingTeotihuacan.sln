@@ -5,6 +5,18 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICampingTeotihuacan", "APICampingTeotihuacan.csproj", "{C29007CA-11A3-483D-AB6C-2AEB481133BF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. UI", "1. UI", "{ACEB8600-3A84-4DB9-AC53-3DF36C72BC98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Manager", "2. Manager", "{9C9EB473-8226-4B38-B1EE-5EC88C47F313}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Repository", "3. Repository", "{53B93A2C-6946-4D89-B889-F68E3D5ABE60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager", "..\Manager\Manager.csproj", "{21256E6E-1FF5-432C-833A-A62FDEBA7C1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "..\Entity\Entity.csproj", "{3DD52055-9B96-4A6D-8227-8BD245D63410}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "..\Repository\Repository.csproj", "{99C24D0B-89C6-4F09-91D8-634AB5C00B58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +27,27 @@ Global
 		{C29007CA-11A3-483D-AB6C-2AEB481133BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C29007CA-11A3-483D-AB6C-2AEB481133BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C29007CA-11A3-483D-AB6C-2AEB481133BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21256E6E-1FF5-432C-833A-A62FDEBA7C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21256E6E-1FF5-432C-833A-A62FDEBA7C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21256E6E-1FF5-432C-833A-A62FDEBA7C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21256E6E-1FF5-432C-833A-A62FDEBA7C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD52055-9B96-4A6D-8227-8BD245D63410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD52055-9B96-4A6D-8227-8BD245D63410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD52055-9B96-4A6D-8227-8BD245D63410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD52055-9B96-4A6D-8227-8BD245D63410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99C24D0B-89C6-4F09-91D8-634AB5C00B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C24D0B-89C6-4F09-91D8-634AB5C00B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C24D0B-89C6-4F09-91D8-634AB5C00B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C24D0B-89C6-4F09-91D8-634AB5C00B58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C29007CA-11A3-483D-AB6C-2AEB481133BF} = {ACEB8600-3A84-4DB9-AC53-3DF36C72BC98}
+		{21256E6E-1FF5-432C-833A-A62FDEBA7C1C} = {9C9EB473-8226-4B38-B1EE-5EC88C47F313}
+		{3DD52055-9B96-4A6D-8227-8BD245D63410} = {9C9EB473-8226-4B38-B1EE-5EC88C47F313}
+		{99C24D0B-89C6-4F09-91D8-634AB5C00B58} = {53B93A2C-6946-4D89-B889-F68E3D5ABE60}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {29AFF7C6-6C17-4A6C-B3A6-1CDAEED4DF14}

@@ -1,0 +1,14 @@
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Manager\bin\Debug\netcoreapp3.1\Manager.deps.json
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Manager\bin\Debug\netcoreapp3.1\Manager.dll
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Manager\bin\Debug\netcoreapp3.1\Manager.pdb
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Manager\obj\Debug\netcoreapp3.1\Manager.csprojAssemblyReference.cache
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Manager\obj\Debug\netcoreapp3.1\Manager.AssemblyInfoInputs.cache
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Manager\obj\Debug\netcoreapp3.1\Manager.AssemblyInfo.cs
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Manager\obj\Debug\netcoreapp3.1\Manager.csproj.CoreCompileInputs.cache
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Manager\obj\Debug\netcoreapp3.1\Manager.dll
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Manager\obj\Debug\netcoreapp3.1\Manager.pdb
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Manager\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Manager\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Manager\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Manager\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Manager\obj\Debug\netcoreapp3.1\Manager.csproj.CopyComplete
