@@ -4,14 +4,16 @@ using EdgarAparicio.APICampingTeotihuacan.Manager.Entity.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EdgarAparicio.APICampingTeotihuacan.Manager.Entity.Migrations
 {
     [DbContext(typeof(DbContextAPICampingTeotihuacan))]
-    partial class DbContextAPICampingTeotihuacanModelSnapshot : ModelSnapshot
+    [Migration("20210212032705_ChangeEntities")]
+    partial class ChangeEntities
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

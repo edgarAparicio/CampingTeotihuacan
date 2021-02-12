@@ -37,8 +37,13 @@ namespace APICampingTeotihuacan
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<ICampRepository, CampRepostory>();
             services.AddScoped<ICampManager, CampManager>();
-            services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            services.AddMvc();
+            //services.AddAutoMapper(Assembly.GetExecutingAssembly());  //Solo para version .Net Core 2.2 y Map 5.0.1
+            //services.AddAutoMapper(typeof(Startup));    |       //No funciona bien con .NEt Core 3.1 solo con ciertas cosas
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()); //Configuracion correcta para cualquier version mapper con NEt.Core 3.1
+            
             services.AddControllers();
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -17,23 +17,23 @@ namespace EdgarAparicio.APICampingTeotihuacan.Manager.Entity.Context
         }
 
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder bldr)
         {
-            modelBuilder.Entity<Camp>().HasData(
-                new Camp()
-                {
-                    Id = 1,
-                    Moniker = "ATL2018",
-                    Name = "Atlanta Code Camp",
-                    EventDate = new DateTime(2018, 10, 18),
-                    LocationId = 1,
-                    Length = 1
-                });
-
-            modelBuilder.Entity<Location>().HasData(
-                new Location()
+            bldr.Entity<Camp>()
+              .HasData(new
               {
-                  Id = 1,
+                  CampId = 1,
+                  Moniker = "ATL2018",
+                  Name = "Atlanta Code Camp",
+                  EventDate = new DateTime(2018, 10, 18),
+                  LocationId = 1,
+                  Length = 1
+              });
+
+            bldr.Entity<Location>()
+              .HasData(new
+              {
+                  LocationId = 1,
                   VenueName = "Atlanta Convention Center",
                   Address1 = "123 Main Street",
                   CityTown = "Atlanta",
@@ -42,30 +42,30 @@ namespace EdgarAparicio.APICampingTeotihuacan.Manager.Entity.Context
                   Country = "USA"
               });
 
-            modelBuilder.Entity<Talk>().HasData(
-                new Talk()
+            bldr.Entity<Talk>()
+              .HasData(new
               {
-                  Id = 1,
+                  TalkId = 1,
+                  CampId = 1,
+                  SpeakerId = 1,
                   Title = "Entity Framework From Scratch",
                   Abstract = "Entity Framework from scratch in an hour. Probably cover it all",
-                  Level = 100,
-                  CampId = 1,
-                  SpeakerId = 1
+                  Level = 100
               },
-              new Talk()
+              new
               {
-                  Id = 2,
-                  Title = "Writing Sample Data Made Easy",
-                  Abstract = "Thinking of good sample data examples is tiring.",
-                  Level = 200,
+                  TalkId = 2,
                   CampId = 1,
                   SpeakerId = 2,
+                  Title = "Writing Sample Data Made Easy",
+                  Abstract = "Thinking of good sample data examples is tiring.",
+                  Level = 200
               });
 
-            modelBuilder.Entity<Speaker>().HasData(
-                new Speaker()
+            bldr.Entity<Speaker>()
+              .HasData(new
               {
-                  Id = 1,
+                  SpeakerId = 1,
                   FirstName = "Shawn",
                   LastName = "Wildermuth",
                   BlogUrl = "http://wildermuth.com",
@@ -73,10 +73,9 @@ namespace EdgarAparicio.APICampingTeotihuacan.Manager.Entity.Context
                   CompanyUrl = "http://wilderminds.com",
                   GitHub = "shawnwildermuth",
                   Twitter = "shawnwildermuth"
-              }, 
-                new Speaker()
+              }, new
               {
-                  Id = 2,
+                  SpeakerId = 2,
                   FirstName = "Resa",
                   LastName = "Wildermuth",
                   BlogUrl = "http://shawnandresa.com",

@@ -13,6 +13,8 @@ namespace EdgarAparicio.APICampingTeotihuacan.Repository.Interfaces
 
         Task<List<Camp>> GetAllCamps();
 
+        Task<Camp> GetCamp(string moniker);
+
 
 
 

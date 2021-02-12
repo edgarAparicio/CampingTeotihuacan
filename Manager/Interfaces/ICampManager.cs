@@ -13,5 +13,7 @@ namespace EdgarAparicio.APICampingTeotihuacan.Manager.Interfaces
         Task<CampViewModel[]> GetAllCampsAsync(bool includeTalks = false);
         Task<List<CampViewModel>> GetAllCamps();
 
+        Task<CampViewModel> GetCamp(string moniker);
+
     }
 }

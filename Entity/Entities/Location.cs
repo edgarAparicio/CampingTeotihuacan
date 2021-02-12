@@ -7,8 +7,7 @@ namespace EdgarAparicio.APICampingTeotihuacan.Manager.Entity.Entities
 {
     public class Location
     {
-        [Key]
-        public int Id { get; set; }
+        public int LocationId { get; set; }
         public string VenueName { get; set; }
         public string Address1 { get; set; }
         public string Address2 { get; set; }

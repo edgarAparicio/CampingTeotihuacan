@@ -9,3 +9,4 @@ C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuac
 C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Entity\obj\Debug\netcoreapp3.1\Entity.dll
 C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Entity\obj\Debug\netcoreapp3.1\Entity.pdb
 C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Entity\obj\Debug\netcoreapp3.1\Entity.genruntimeconfig.cache
+C:\Users\eaparicio\Google Drive\Applications Development\Git\APICampingTeotihuacan\Entity\obj\Debug\netcoreapp3.1\Entity.csprojAssemblyReference.cache

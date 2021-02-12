@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace EdgarAparicio.APICampingTeotihuacan.Manager.Entity.Entities
+namespace EdgarAparicio.APICampingTeotihuacan.Manager.Entity.ViewModels
 {
-    public class Speaker
+    public class SpeakerViewModel
     {
         public int SpeakerId { get; set; }
         public string FirstName { get; set; }

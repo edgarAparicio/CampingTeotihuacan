@@ -30,10 +30,11 @@ namespace EdgarAparicio.APICampingTeotihuacan.Repository.Repositories
             return await query.ToArrayAsync();
         }
 
+
         public async Task<List<Camp>> GetAllCamps()
         {
             var list =  await _context.Camps
-                    .Include(c => c.Location)
+                    .Include(c => c.Location).Include(c => c.Talks).ThenInclude(t => t.Speaker)
                     .OrderByDescending(c => c.EventDate)
                     .ToListAsync();
 
@@ -60,6 +61,14 @@ namespace EdgarAparicio.APICampingTeotihuacan.Repository.Repositories
 
         }
 
-        
+        public async Task<Camp> GetCamp(string moniker)
+        {
+            var entity = await _context.Camps
+                .Include(c => c.Location)
+                .Where(c => c.Moniker == moniker)
+                .FirstOrDefaultAsync();
+
+            return entity;
+        }
     }
 }

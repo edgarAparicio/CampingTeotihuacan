@@ -29,10 +29,17 @@ namespace EdgarAparicio.APICampingTeotihuacan.Manager.Manager
 
         public async Task<CampViewModel[]> GetAllCampsAsync(bool includeTalks = false)
         {
-            var listEntity = await _repository.GetAllCampsAsync();
+            var listEntity = await _repository.GetAllCampsAsync(includeTalks);
 
             CampViewModel[] listViewModel = _mapper.Map<CampViewModel[]>(listEntity);
             return listViewModel;
+        }
+
+        public async Task<CampViewModel> GetCamp(string moniker)
+        {
+            var entity = await _repository.GetCamp(moniker);
+            CampViewModel campViewModel = _mapper.Map<CampViewModel>(entity);
+            return campViewModel;
         }
     }
 }
